@@ -108,23 +108,22 @@ margin-top: -11%;
     
 
 
-.logos {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    margin-left: -20%;
-    margin-top: -80%;
-    margin-bottom: -500%;
-    height: -500px;
-    }
+        .logos {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            margin-top: -100%;
+            }
+            
+            .canarias { grid-area: 1 / 1 / 2 / 2; }
+            .espana { grid-area: 2 / 1 / 3 / 2; }
+            .juvenil { grid-area: 3 / 1 / 4 / 2; }
+            .tias { grid-area: 4 / 1 / 5 / 2; }
+            .europa { grid-area: 5 / 1 / 6 / 2; }
     
-    .canarias { grid-area: 1 / 2 / 2 / 3; }
-    .espana { grid-area: 1 / 4 / 2 / 5; }
-    .juvenil { grid-area: 1 / 6 / 2 / 7; }
-    .tias { grid-area: 2 / 3 / 3 / 4; }
-    .europa { grid-area: 2 / 5 / 3 / 6; }
+    
     
 
 
